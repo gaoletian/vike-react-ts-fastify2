@@ -1,0 +1,37 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx ./fastify-entry.ts",
+    "build": "vite build",
+    "preview": "NODE_ENV=production tsx ./fastify-entry.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@auth/core": "^0.34.1",
+    "typescript": "^5.5.2",
+    "@types/node": "^18.19.14",
+    "prettier": "^3.3.2",
+    "eslint-config-prettier": "^9.1.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0"
+  },
+  "dependencies": {
+    "@fastify/middie": "^8.3.1",
+    "@fastify/static": "^7.0.4",
+    "@universal-middleware/express": "^0.0.2",
+    "fastify": "^4.28.0",
+    "tsx": "^4.15.7",
+    "vike": "^0.4.177",
+    "vite": "^5.3.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "cross-fetch": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vike-react": "^0.4.14",
+    "lowdb": "^7.0.1"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "installDependencies": false,
+  "startCommand": "pnpm create @batijs/app --react --fastify --prettier --force . && pnpm i && pnpm run dev",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
